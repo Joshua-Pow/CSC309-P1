@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./output.css" rel="stylesheet" />
+    </head>
+    <body class="relative min-h-[100dvh] bg-background text-foreground">
+        <header>
+            <nav
+                class="flex h-12 flex-wrap content-center justify-center gap-3 border-b bg-accent"
+            >
+                <a
+                    class="scroll-m-20 text-2xl font-semibold tracking-tight text-primary"
+                    href="./index.html"
+                    >About</a
+                >
+                <a
+                    class="scroll-m-20 text-2xl font-semibold tracking-tight"
+                    href="./schedule.html"
+                    >Schedule</a
+                >
+                <a
+                    class="scroll-m-20 text-2xl font-semibold tracking-tight"
+                    href="./contacts.html"
+                    >Contacts</a
+                >
+            </nav>
+        </header>
+        <main class="flex flex-col items-center p-4 pb-12 pt-7 text-center">
+            <div
+                class="w-11/12 rounded-xl border bg-card p-4 text-card-foreground shadow md:w-1/2 lg:w-1/3 xl:w-1/3"
+            >
+                <div class="flex flex-col space-y-1.5 pb-6">
+                    <h3 class="text-xl font-bold leading-none tracking-tight">
+                        Contacts
+                    </h3>
+                    <p class="text-sm text-muted-foreground">
+                        Manage all your contacts here.
+                    </p>
+                </div>
+
+                <div class="grid gap-6 p-6 pt-0">
+                    <div
+                        class="flex items-center justify-between space-x-4 border-b-2 border-primary pb-2 mb-2"
+                    >
+                        <input
+                            class="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:w-[100px] lg:w-[300px]"
+                            placeholder="Search..."
+                            type="search"
+                        />
+                        <button
+                            class="ml-auto inline-flex h-9 items-center justify-center whitespace-nowrap rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                            type="button"
+                            aria-haspopup="dialog"
+                            aria-expanded="false"
+                            aria-controls="radix-:r2l:"
+                            data-state="closed"
+                        >
+                            Filter
+                            <svg
+                                class="ml-2 h-4 w-4 text-muted-foreground"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2a1 1 0 01-.293.707L13 14.414V19a1 1 0 01-.553.894l-3 1.5A1 1 0 018 20v-6.586L3.293 6.707A1 1 0 013 6V4z"
+                                ></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex items-center justify-between space-x-4">
+                        <div class="flex items-center space-x-4">
+                            <span
+                                class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
+                                ><img
+                                    class="aspect-square h-full w-full"
+                                    src="icons/icon.jpg"
+                            /></span>
+                            <div class="flex flex-col justify-center text-left">
+                                <p class="text-sm font-medium leading-none">
+                                    Peter Parker
+                                </p>
+                                <p class="text-sm text-muted-foreground">
+                                    p@example.com
+                                </p>
+                            </div>
+                        </div>
+                        <button
+                            class="ml-auto inline-flex h-9 items-center justify-center whitespace-nowrap rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                            type="button"
+                            aria-haspopup="dialog"
+                            aria-expanded="false"
+                            aria-controls="radix-:r2l:"
+                            data-state="closed"
+                        >
+                            Added
+                            <svg
+                                width="15"
+                                height="15"
+                                viewBox="0 0 15 15"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="ml-2 h-4 w-4 text-muted-foreground"
+                            >
+                                <path
+                                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                                    fill="currentColor"
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                ></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex items-center justify-between space-x-4">
+                        <div class="flex items-center space-x-4">
+                            <span
+                                class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
+                                ><img
+                                    class="aspect-square h-full w-full"
+                                    src="icons/icon.jpg"
+                            /></span>
+                            <div class="flex flex-col justify-center text-left">
+                                <p class="text-sm font-medium leading-none">
+                                    Beter Barker
+                                </p>
+                                <p class="text-sm text-muted-foreground">
+                                    b@example.com
+                                </p>
+                            </div>
+                        </div>
+                        <button
+                            class="ml-auto inline-flex h-9 items-center justify-center whitespace-nowrap rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                            type="button"
+                            aria-haspopup="dialog"
+                            aria-expanded="false"
+                            aria-controls="radix-:r2m:"
+                            data-state="closed"
+                        >
+                            Pending...
+                            <svg
+                                width="15"
+                                height="15"
+                                viewBox="0 0 15 15"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="ml-2 h-4 w-4 text-muted-foreground"
+                            >
+                                <path
+                                    d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                                    fill="currentColor"
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                ></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex items-center justify-between space-x-4">
+                        <div class="flex items-center space-x-4">
+                            <span
+                                class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
+                                ><img
+                                    class="aspect-square h-full w-full"
+                                    src="icons/icon.jpg"
+                            /></span>
+                            <div class="flex flex-col justify-center text-left">
+                                <p class="text-sm font-medium leading-none">
+                                    Yeter Yarker
+                                </p>
+                                <p class="text-sm text-muted-foreground">
+                                    y@example.com
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="inline-flex rounded-md shadow-sm"
+                            role="group"
+                        >
+                            <button
+                                type="button"
+                                class="inline-flex items-center rounded-l-md border bg-green-100 px-4 py-2 text-sm font-medium text-green-800 hover:bg-green-200 focus:outline-none"
+                            >
+                                Accept
+                                <svg
+                                    class="-mr-1 ml-2 h-4 w-4"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path>
+                                </svg>
+                            </button>
+                            <button
+                                type="button"
+                                class="inline-flex items-center rounded-r-md border bg-red-100 px-4 py-2 text-sm font-medium text-red-800 hover:bg-red-200 focus:outline-none"
+                            >
+                                Reject
+                                <svg
+                                    class="-mr-1 ml-2 h-4 w-4"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M6 18L18 6M6 6l12 12"
+                                    ></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <button
+                        class="inline-flex h-9 items-center mt-2 justify-center whitespace-nowrap rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                    >
+                        Add Contacts
+                        <svg
+                            width="15"
+                            height="15"
+                            viewBox="0 0 15 15"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="ml-2 h-4 w-4"
+                        >
+                            <path
+                                d="M7.49991 0.876892C3.84222 0.876892 0.877075 3.84204 0.877075 7.49972C0.877075 11.1574 3.84222 14.1226 7.49991 14.1226C11.1576 14.1226 14.1227 11.1574 14.1227 7.49972C14.1227 3.84204 11.1576 0.876892 7.49991 0.876892ZM1.82707 7.49972C1.82707 4.36671 4.36689 1.82689 7.49991 1.82689C10.6329 1.82689 13.1727 4.36671 13.1727 7.49972C13.1727 10.6327 10.6329 13.1726 7.49991 13.1726C4.36689 13.1726 1.82707 10.6327 1.82707 7.49972ZM7.50003 4C7.77617 4 8.00003 4.22386 8.00003 4.5V7H10.5C10.7762 7 11 7.22386 11 7.5C11 7.77614 10.7762 8 10.5 8H8.00003V10.5C8.00003 10.7761 7.77617 11 7.50003 11C7.22389 11 7.00003 10.7761 7.00003 10.5V8H4.50003C4.22389 8 4.00003 7.77614 4.00003 7.5C4.00003 7.22386 4.22389 7 4.50003 7H7.00003V4.5C7.00003 4.22386 7.22389 4 7.50003 4Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                            ></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </main>
+        <footer class="absolute bottom-0 h-12 w-full text-center">
+            <p class="text-sm font-medium leading-none">
+                Made with ❤️ by Joshua Pow, Tashan Maniyalaghan, Jongjin Jung,
+                and Asher Hounsell
+            </p>
+        </footer>
+    </body>
+</html>
