@@ -40,7 +40,7 @@
                     </p>
                 </div>
 
-                <div class="grid gap-6 p-6 pt-0">
+                <div class="p-2 space-y-4">
                     <div
                         class="mb-2 flex items-center justify-between space-x-4 border-b-2 border-primary pb-3"
                     >
@@ -111,7 +111,7 @@
                                 <circle cx="12" cy="19" r="1" />
                             </svg>
                             <div
-                                class="pointer-events-none absolute left-full z-10 ml-2 hidden w-auto min-w-max -translate-x-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground shadow-md transition-opacity transition-transform duration-300 ease-in-out group-focus:inline group-focus:translate-x-0"
+                                class="pointer-events-none absolute right-full z-10 mr-2 hidden w-auto min-w-max -translate-x-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground shadow-md transition-opacity transition-transform duration-300 ease-in-out group-focus:inline group-focus:translate-x-0"
                             >
                                 <ul class="text-left">
                                     <li>Remove</li>
@@ -144,7 +144,7 @@
                             Pending
                         </div>
                     </div>
-                    <div class="flex items-center justify-between space-x-4">
+                    <div class="flex items-center justify-between">
                         <div class="flex items-center space-x-4">
                             <span
                                 class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
@@ -161,51 +161,21 @@
                                 </p>
                             </div>
                         </div>
-                        <div
-                            class="inline-flex rounded-md shadow-sm"
-                            role="group"
-                        >
-                            <button
-                                type="button"
-                                class="inline-flex items-center rounded-l-md border bg-green-100 px-4 py-2 text-sm font-medium text-green-800 hover:bg-green-200 focus:outline-none"
-                            >
-                                Accept
-                                <svg
-                                    class="-mr-1 ml-2 h-4 w-4"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M5 13l4 4L19 7"
-                                    ></path>
+                        <div class="flex">
+                            <button type="button" class="flex items-center flex-shrink rounded-l-md border bg-green-100 px-2 py-2 text-sm font-medium text-green-800 hover:bg-green-200 focus:outline-none overflow-hidden w-auto min-w-min">
+                                <span class="hidden sm:inline">Accept</span>
+                                <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                 </svg>
                             </button>
-                            <button
-                                type="button"
-                                class="inline-flex items-center rounded-r-md border bg-red-100 px-4 py-2 text-sm font-medium text-red-800 hover:bg-red-200 focus:outline-none"
-                            >
-                                Reject
-                                <svg
-                                    class="-mr-1 ml-2 h-4 w-4"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M6 18L18 6M6 6l12 12"
-                                    ></path>
+                            <button type="button" class="flex items-center flex-shrink rounded-r-md border bg-red-100 px-2 py-2 text-sm font-medium text-red-800 hover:bg-red-200 focus:outline-none overflow-hidden w-auto min-w-min">
+                                <span class="hidden sm:inline">Reject</span>
+                                <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                                 </svg>
                             </button>
                         </div>
+                        
                     </div>
                     <button
                         class="mt-2 inline-flex h-9 items-center justify-center whitespace-nowrap rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
@@ -231,7 +201,7 @@
             </div>
         </main>
         <footer class="absolute bottom-0 h-12 w-full text-center">
-            <p class="text-sm font-medium leading-none">
+            <p class="text-sm font-medium leading-none pl-4 pr-4">
                 Made with ❤️ by Joshua Pow, Tashan Maniyalaghan, Jongjin Jung,
                 and Asher Hounsell
             </p>
