@@ -40,695 +40,698 @@
             <!-- TODO: make a finalized calendar -->
             <!-- TODO: make a calendar youre a guest on so you can add your availability -->
             <div
-                class="mt-8 flex justify-evenly gap-10 w-full"
-            >
-                <div
-                    class="rounded-lg border bg-card text-card-foreground shadow-sm"
-                >
-                    <!-- Card Header -->
-                    <div class="flex flex-col space-y-1.5 p-6">
-                        <h3
-                            class="text-2xl font-semibold leading-none tracking-tight"
-                        >
-                            Calendar 1
-                        </h3>
-                        <p class="text-sm text-muted-foreground">
-                            Details about calendar 1
-                        </p>
-                    </div>
-                    <!-- Card Body -->
-                    <div class="p-6 pt-0">
-                        <div class="rounded-md border p-3">
-                            <div
-                                class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
+                class="mt-8 flex flex-col md:flex-row md:justify-evenly gap-10 w-full items-center"
+            >   
+                <div class="flex justify-center">
+                    <div
+                        class="rounded-lg border bg-card text-card-foreground shadow-sm"
+                    >
+                        <!-- Card Header -->
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <h3
+                                class="text-2xl font-semibold leading-none tracking-tight"
                             >
-                                <div class="space-y-4">
-                                    <div
-                                        class="relative flex items-center justify-center pt-1"
-                                    >
-                                        <div class="text-sm font-medium">
-                                            January 2024
+                                Calendar 1
+                            </h3>
+                            <p class="text-sm text-muted-foreground">
+                                Details about calendar 1
+                            </p>
+                        </div>
+                        <!-- Card Body -->
+                        <div class="p-6 pt-0">
+                            <div class="rounded-md border p-3">
+                                <div
+                                    class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
+                                >
+                                    <div class="space-y-4">
+                                        <div
+                                            class="relative flex items-center justify-center pt-1"
+                                        >
+                                            <div class="text-sm font-medium">
+                                                January 2024
+                                            </div>
                                         </div>
+                                        <table
+                                            class="w-full border-collapse space-y-1"
+                                            role="grid"
+                                        >
+                                            <thead>
+                                                <tr class="flex">
+                                                    <th
+                                                        scope="col"
+                                                        class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
+                                                        aria-label="Sunday"
+                                                    >
+                                                        Su
+                                                    </th>
+                                                    <th
+                                                        scope="col"
+                                                        class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
+                                                        aria-label="Monday"
+                                                    >
+                                                        Mo
+                                                    </th>
+                                                    <th
+                                                        scope="col"
+                                                        class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
+                                                        aria-label="Tuesday"
+                                                    >
+                                                        Tu
+                                                    </th>
+                                                    <th
+                                                        scope="col"
+                                                        class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
+                                                        aria-label="Wednesday"
+                                                    >
+                                                        We
+                                                    </th>
+                                                    <th
+                                                        scope="col"
+                                                        class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
+                                                        aria-label="Thursday"
+                                                    >
+                                                        Th
+                                                    </th>
+                                                    <th
+                                                        scope="col"
+                                                        class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
+                                                        aria-label="Friday"
+                                                    >
+                                                        Fr
+                                                    </th>
+                                                    <th
+                                                        scope="col"
+                                                        class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
+                                                        aria-label="Saturday"
+                                                    >
+                                                        Sa
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody role="rowgroup">
+                                                <tr class="mt-2 flex w-full">
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal text-muted-foreground opacity-50 ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            31
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            1
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-l-md bg-primary/40 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="0"
+                                                            aria-selected="true"
+                                                            type="button"
+                                                        >
+                                                            2
+                                                            <div
+                                                                class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
+                                                            >
+                                                                <ul
+                                                                    class="text-left"
+                                                                >
+                                                                    <li>✅ John</li>
+                                                                    <li>✅ Will</li>
+                                                                    <li>❌ Joe</li>
+                                                                    <li>✅ Jim</li>
+                                                                </ul>
+                                                            </div>
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap bg-primary/50 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="0"
+                                                            aria-selected="true"
+                                                            type="button"
+                                                        >
+                                                            3
+                                                            <div
+                                                                class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
+                                                            >
+                                                                <ul
+                                                                    class="text-left"
+                                                                >
+                                                                    <li>✅ John</li>
+                                                                    <li>✅ Will</li>
+                                                                    <li>❌ Joe</li>
+                                                                    <li>✅ Jim</li>
+                                                                </ul>
+                                                            </div>
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-r-md bg-primary/60 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="0"
+                                                            aria-selected="true"
+                                                            type="button"
+                                                        >
+                                                            4
+                                                            <div
+                                                                class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
+                                                            >
+                                                                <ul
+                                                                    class="text-left"
+                                                                >
+                                                                    <li>✅ John</li>
+                                                                    <li>✅ Will</li>
+                                                                    <li>❌ Joe</li>
+                                                                    <li>✅ Jim</li>
+                                                                </ul>
+                                                            </div>
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            5
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            6
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="mt-2 flex w-full">
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            7
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            8
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            9
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            10
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            11
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            12
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            13
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="mt-2 flex w-full">
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            14
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            15
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            16
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-l-md bg-primary p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="0"
+                                                            aria-selected="true"
+                                                            type="button"
+                                                        >
+                                                            17
+                                                            <div
+                                                                class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
+                                                            >
+                                                                <ul
+                                                                    class="text-left"
+                                                                >
+                                                                    <li>✅ John</li>
+                                                                    <li>✅ Will</li>
+                                                                    <li>❌ Joe</li>
+                                                                    <li>✅ Jim</li>
+                                                                </ul>
+                                                            </div>
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-r-md bg-primary/90 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="0"
+                                                            aria-selected="true"
+                                                            type="button"
+                                                        >
+                                                            18
+                                                            <div
+                                                                class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
+                                                            >
+                                                                <ul
+                                                                    class="text-left"
+                                                                >
+                                                                    <li>✅ John</li>
+                                                                    <li>✅ Will</li>
+                                                                    <li>❌ Joe</li>
+                                                                    <li>✅ Jim</li>
+                                                                </ul>
+                                                            </div>
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            19
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            20
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="mt-2 flex w-full">
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            21
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md bg-primary/80 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="0"
+                                                            aria-selected="true"
+                                                            type="button"
+                                                        >
+                                                            22
+                                                            <div
+                                                                class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
+                                                            >
+                                                                <ul
+                                                                    class="text-left"
+                                                                >
+                                                                    <li>✅ John</li>
+                                                                    <li>✅ Will</li>
+                                                                    <li>❌ Joe</li>
+                                                                    <li>✅ Jim</li>
+                                                                </ul>
+                                                            </div>
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            23
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            24
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            25
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            26
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            27
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="mt-2 flex w-full">
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            28
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            29
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md bg-primary/70 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="0"
+                                                            aria-selected="true"
+                                                            type="button"
+                                                        >
+                                                            30
+                                                            <div
+                                                                class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
+                                                            >
+                                                                <ul
+                                                                    class="text-left"
+                                                                >
+                                                                    <li>✅ John</li>
+                                                                    <li>✅ Will</li>
+                                                                    <li>❌ Joe</li>
+                                                                    <li>✅ Jim</li>
+                                                                </ul>
+                                                            </div>
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            31
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal text-muted-foreground opacity-50 ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            1
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal text-muted-foreground opacity-50 ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            2
+                                                        </button>
+                                                    </td>
+                                                    <td
+                                                        class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
+                                                        role="presentation"
+                                                    >
+                                                        <button
+                                                            name="day"
+                                                            class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal text-muted-foreground opacity-50 ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                                                            role="gridcell"
+                                                            tabindex="-1"
+                                                            type="button"
+                                                        >
+                                                            3
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
-                                    <table
-                                        class="w-full border-collapse space-y-1"
-                                        role="grid"
-                                    >
-                                        <thead>
-                                            <tr class="flex">
-                                                <th
-                                                    scope="col"
-                                                    class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
-                                                    aria-label="Sunday"
-                                                >
-                                                    Su
-                                                </th>
-                                                <th
-                                                    scope="col"
-                                                    class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
-                                                    aria-label="Monday"
-                                                >
-                                                    Mo
-                                                </th>
-                                                <th
-                                                    scope="col"
-                                                    class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
-                                                    aria-label="Tuesday"
-                                                >
-                                                    Tu
-                                                </th>
-                                                <th
-                                                    scope="col"
-                                                    class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
-                                                    aria-label="Wednesday"
-                                                >
-                                                    We
-                                                </th>
-                                                <th
-                                                    scope="col"
-                                                    class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
-                                                    aria-label="Thursday"
-                                                >
-                                                    Th
-                                                </th>
-                                                <th
-                                                    scope="col"
-                                                    class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
-                                                    aria-label="Friday"
-                                                >
-                                                    Fr
-                                                </th>
-                                                <th
-                                                    scope="col"
-                                                    class="w-9 rounded-md text-[0.8rem] font-normal text-muted-foreground"
-                                                    aria-label="Saturday"
-                                                >
-                                                    Sa
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody role="rowgroup">
-                                            <tr class="mt-2 flex w-full">
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal text-muted-foreground opacity-50 ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        31
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        1
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-l-md bg-primary/40 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="0"
-                                                        aria-selected="true"
-                                                        type="button"
-                                                    >
-                                                        2
-                                                        <div
-                                                            class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity transition-transform duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
-                                                        >
-                                                            <ul
-                                                                class="text-left"
-                                                            >
-                                                                <li>✅ John</li>
-                                                                <li>✅ Will</li>
-                                                                <li>❌ Joe</li>
-                                                                <li>✅ Jim</li>
-                                                            </ul>
-                                                        </div>
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap bg-primary/50 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="0"
-                                                        aria-selected="true"
-                                                        type="button"
-                                                    >
-                                                        3
-                                                        <div
-                                                            class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity transition-transform duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
-                                                        >
-                                                            <ul
-                                                                class="text-left"
-                                                            >
-                                                                <li>✅ John</li>
-                                                                <li>✅ Will</li>
-                                                                <li>❌ Joe</li>
-                                                                <li>✅ Jim</li>
-                                                            </ul>
-                                                        </div>
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-r-md bg-primary/60 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="0"
-                                                        aria-selected="true"
-                                                        type="button"
-                                                    >
-                                                        4
-                                                        <div
-                                                            class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity transition-transform duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
-                                                        >
-                                                            <ul
-                                                                class="text-left"
-                                                            >
-                                                                <li>✅ John</li>
-                                                                <li>✅ Will</li>
-                                                                <li>❌ Joe</li>
-                                                                <li>✅ Jim</li>
-                                                            </ul>
-                                                        </div>
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        5
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        6
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr class="mt-2 flex w-full">
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        7
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        8
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        9
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        10
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        11
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        12
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        13
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr class="mt-2 flex w-full">
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        14
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        15
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        16
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-l-md bg-primary p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="0"
-                                                        aria-selected="true"
-                                                        type="button"
-                                                    >
-                                                        17
-                                                        <div
-                                                            class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity transition-transform duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
-                                                        >
-                                                            <ul
-                                                                class="text-left"
-                                                            >
-                                                                <li>✅ John</li>
-                                                                <li>✅ Will</li>
-                                                                <li>❌ Joe</li>
-                                                                <li>✅ Jim</li>
-                                                            </ul>
-                                                        </div>
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-r-md bg-primary/90 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="0"
-                                                        aria-selected="true"
-                                                        type="button"
-                                                    >
-                                                        18
-                                                        <div
-                                                            class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity transition-transform duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
-                                                        >
-                                                            <ul
-                                                                class="text-left"
-                                                            >
-                                                                <li>✅ John</li>
-                                                                <li>✅ Will</li>
-                                                                <li>❌ Joe</li>
-                                                                <li>✅ Jim</li>
-                                                            </ul>
-                                                        </div>
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        19
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        20
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr class="mt-2 flex w-full">
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        21
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md bg-primary/80 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="0"
-                                                        aria-selected="true"
-                                                        type="button"
-                                                    >
-                                                        22
-                                                        <div
-                                                            class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity transition-transform duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
-                                                        >
-                                                            <ul
-                                                                class="text-left"
-                                                            >
-                                                                <li>✅ John</li>
-                                                                <li>✅ Will</li>
-                                                                <li>❌ Joe</li>
-                                                                <li>✅ Jim</li>
-                                                            </ul>
-                                                        </div>
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        23
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        24
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        25
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        26
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        27
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr class="mt-2 flex w-full">
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        28
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        29
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="group relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md bg-primary/70 p-0 text-sm font-normal text-primary-foreground ring-offset-background transition-colors focus:bg-primary focus:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="0"
-                                                        aria-selected="true"
-                                                        type="button"
-                                                    >
-                                                        30
-                                                        <div
-                                                            class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity transition-transform duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
-                                                        >
-                                                            <ul
-                                                                class="text-left"
-                                                            >
-                                                                <li>✅ John</li>
-                                                                <li>✅ Will</li>
-                                                                <li>❌ Joe</li>
-                                                                <li>✅ Jim</li>
-                                                            </ul>
-                                                        </div>
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        31
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal text-muted-foreground opacity-50 ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        1
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal text-muted-foreground opacity-50 ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        2
-                                                    </button>
-                                                </td>
-                                                <td
-                                                    class="relative h-9 w-9 p-0 text-center text-sm focus-within:relative focus-within:z-20"
-                                                    role="presentation"
-                                                >
-                                                    <button
-                                                        name="day"
-                                                        class="inline-flex h-9 w-9 items-center justify-center whitespace-nowrap rounded-md p-0 text-sm font-normal text-muted-foreground opacity-50 ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
-                                                        role="gridcell"
-                                                        tabindex="-1"
-                                                        type="button"
-                                                    >
-                                                        3
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
                                 </div>
                             </div>
                         </div>
+                        <!-- Card Footer -->
                     </div>
-                    <!-- Card Footer -->
                 </div>
+                
 
-                <div>
+                <div class="overflow-y-scroll max-h-[27rem]">
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm mb-5">
                         <div class="flex flex-col space-y-1.5 p-6 pr-40">
                             <h3 class="text-xl font-semibold leading-none tracking-tight">
@@ -740,7 +743,30 @@
                         </div>
                         <div class="p-3 pt-0 w-80">
                             <div class="rounded-md border p-3 w-full">
-                                <div class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                                <div class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 justify-center">
+                                    <div class="space-y-4">
+                                        <div
+                                            class="relative flex items-center justify-center pt-1"
+                                        >
+                                        <div role="group" class="inline-flex h-10 w-full flex-1 rounded-md border border-input bg-transparent px-3 py-2 text-sm ring-offset-background focus-within:ring-2 focus-within:ring-ring focus-within:ring-offset-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+                                            <div role="spinbutton" aria-valuenow="0" aria-valuetext="Empty" aria-valuemin="0" aria-valuemax="23" aria-label="hour" data-placeholder="true" contenteditable="true" spellcheck="false" autocapitalize="off" autocorrect="off" enterkeyhint="next" inputmode="numeric" tabindex="0" class="focus:rounded-[2px] focus:bg-accent focus:text-accent-foreground focus:outline-none px-[1px] text-muted-foreground" style="caret-color: transparent;">09</div>
+                                            <div aria-hidden="true" class="focus:rounded-[2px] focus:bg-accent focus:text-accent-foreground focus:outline-none">:</div>
+                                            <div role="spinbutton" aria-valuenow="0" aria-valuetext="Empty" aria-valuemin="0" aria-valuemax="59" aria-label="minute" data-placeholder="true" contenteditable="true" spellcheck="false" autocapitalize="off" autocorrect="off" enterkeyhint="next" inputmode="numeric" tabindex="0" class="focus:rounded-[2px] focus:bg-accent focus:text-accent-foreground focus:outline-none px-[1px] text-muted-foreground" style="caret-color: transparent;">00</div>
+                                        </div>
+                                        <p class="p-2">-</p>
+                                        <div role="group" class="inline-flex h-10 w-full flex-1 rounded-md border border-input bg-transparent px-3 py-2 text-sm ring-offset-background focus-within:ring-2 focus-within:ring-ring focus-within:ring-offset-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+                                            <div role="spinbutton" aria-valuenow="0" aria-valuetext="Empty" aria-valuemin="0" aria-valuemax="23" aria-label="hour" data-placeholder="true" contenteditable="true" spellcheck="false" autocapitalize="off" autocorrect="off" enterkeyhint="next" inputmode="numeric" tabindex="0" class="focus:rounded-[2px] focus:bg-accent focus:text-accent-foreground focus:outline-none px-[1px] text-muted-foreground" style="caret-color: transparent;">09</div>
+                                            <div aria-hidden="true" class="focus:rounded-[2px] focus:bg-accent focus:text-accent-foreground focus:outline-none">:</div>
+                                            <div role="spinbutton" aria-valuenow="0" aria-valuetext="Empty" aria-valuemin="0" aria-valuemax="59" aria-label="minute" data-placeholder="true" contenteditable="true" spellcheck="false" autocapitalize="off" autocorrect="off" enterkeyhint="next" inputmode="numeric" tabindex="0" class="focus:rounded-[2px] focus:bg-accent focus:text-accent-foreground focus:outline-none px-[1px] text-muted-foreground" style="caret-color: transparent;">45</div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-3 pt-0 w-80">
+                            <div class="rounded-md border p-3 w-full">
+                                <div class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 justify-center">
                                     <div class="space-y-4">
                                         <div
                                             class="relative flex items-center justify-center pt-1"
@@ -782,7 +808,7 @@
                         </div>
                         <div class="p-3 pt-0 w-80">
                             <div class="rounded-md border p-3 w-full">
-                                <div class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                                <div class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 justify-center">
                                     <div class="space-y-4">
                                         <div
                                             class="relative flex items-center justify-center pt-1"
@@ -910,14 +936,19 @@
                     </div>
                 </div>
 
-                <div class="flex justify-center align-middle ml-6">
-                    <button>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-circle">
-                            <circle cx="12" cy="12" r="10"/>
-                            <path d="M8 12h8"/>
-                            <path d="m12 16 4-4-4-4"/>
-                        </svg>
-                    </button>
+                <div class="flex items-center">
+                    <div>
+                        <button onclick="window.location.href = 'schedule.html';" class="p-3 bg-primary rounded-sm flex">
+                            <p class="text-white mr-2">Create</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-check">
+                                <path d="M8 2v4"/>
+                                <path d="M16 2v4"/>
+                                <rect width="18" height="18" x="3" y="4" rx="2"/>
+                                <path d="M3 10h18"/>
+                                <path d="m9 16 2 2 4-4"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </main>
