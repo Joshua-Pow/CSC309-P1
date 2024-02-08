@@ -27,7 +27,7 @@
                 >
             </nav>
         </header>
-        <main class="flex flex-col items-center p-4 pb-12 pt-7">
+        <main class="flex flex-col items-center p-4 pb-[4.75rem] pt-7">
             <h2
                 class="scroll-m-20 border-b pb-2 text-center text-3xl font-semibold tracking-tight first:mt-0"
             >
@@ -544,7 +544,7 @@
                                                     >
                                                         28
                                                         <div
-                                                            class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max origin-bottom translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-opacity transition-transform duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100"
+                                                            class="pointer-events-none absolute bottom-full z-10 mb-1 w-auto min-w-max translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-xs text-popover-foreground opacity-0 shadow-md transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                                         >
                                                             <ul
                                                                 class="text-left"
@@ -2021,6 +2021,7 @@
                             </svg>
                         </button>
                         <button
+                            onclick="window.location.href = 'scheduleView.html';"
                             class="inline-flex h-10 w-10 items-center justify-center whitespace-nowrap rounded-md bg-primary text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
                         >
                             <svg
@@ -2047,6 +2048,7 @@
                 <!-- Add Calendar Button -->
                 <div class="flex flex-wrap content-center justify-center">
                     <button
+                        onclick="window.location.href = 'scheduleCreate.html';"
                         class="inline-flex h-10 w-10 items-center justify-center whitespace-nowrap rounded-md border border-input bg-background text-sm font-medium ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
                     >
                         <svg
