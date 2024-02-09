@@ -8,9 +8,13 @@
     <body class="relative min-h-[100dvh] bg-background text-foreground">
         <header>
             <nav
-                class="flex h-12 flex-wrap content-center justify-center border-b bg-accent"
+                class="flex h-12 flex-wrap content-center justify-center border-b border-primary/30"
             >
-                <div class="ml-auto flex translate-x-[51px] gap-3">
+                <a
+                    class="mr-auto scroll-m-20 pl-4 text-2xl font-semibold tracking-tight underline decoration-primary decoration-wavy decoration-2 hover:cursor-pointer"
+                    >1on1</a
+                >
+                <div class="hidden gap-3 sm:flex">
                     <a
                         class="scroll-m-20 text-2xl font-semibold tracking-tight"
                         href="./index.html"
@@ -29,10 +33,55 @@
                 </div>
 
                 <a
-                    class="ml-auto scroll-m-20 pr-4 text-2xl font-semibold tracking-tight"
+                    class="ml-auto hidden scroll-m-20 pr-4 text-2xl font-semibold tracking-tight sm:block"
                     href="./register.html"
                     >Register</a
                 >
+                <button class="group relative ml-auto pr-4 sm:hidden">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-menu"
+                    >
+                        <line x1="4" x2="20" y1="12" y2="12" />
+                        <line x1="4" x2="20" y1="6" y2="6" />
+                        <line x1="4" x2="20" y1="18" y2="18" />
+                    </svg>
+                    <div
+                        class="absolute right-1/4 top-full z-10 w-auto min-w-max translate-y-2 rounded border border-border bg-popover px-3 py-1.5 text-right text-xs text-popover-foreground opacity-0 shadow-md transition-all group-focus:translate-y-0 group-focus:opacity-100"
+                    >
+                        <ul>
+                            <li class="py-1">
+                                <a
+                                    href="./index.html"
+                                    class="text-lg font-semibold tracking-tight hover:text-primary"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="py-1">
+                                <a
+                                    href="./schedule.html"
+                                    class="text-lg font-semibold tracking-tight hover:text-primary"
+                                    >Schedule</a
+                                >
+                            </li>
+                            <li class="py-1">
+                                <a
+                                    href="./contacts.html"
+                                    class="text-lg font-semibold tracking-tight hover:text-primary"
+                                    >Contacts</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </button>
             </nav>
         </header>
         <main class="flex flex-col items-center p-4 pb-[4.75rem] pt-7">
